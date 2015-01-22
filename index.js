@@ -8,9 +8,10 @@
       alert("Sorry, we're going back to the 60's anyways!")
   };
 
-  alert("Choose your helper first");
 
+  alert("Choose your helper first");
   var character = prompt("Which helper would you like? You can choose from: Goober, Gomer, Otis or Floyd").toLowerCase();
+
   if (character === "Goober") {
     alert("You must be feeling childlike and not very bright");
   } else if (character === "Gomer") {
@@ -20,6 +21,7 @@
   } else if (character === "Floyd") {
     alert("You should consider a career change, Floyd was the town barber");
   };
+
 
   var questionOne = prompt("Who was Andy's trusty deputy? Barney, Cletus or Jedadiah").toLowerCase();
   if (questionOne === "Cletus", "Jedadiah") {
